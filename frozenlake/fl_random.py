@@ -1,12 +1,10 @@
-import math
 import gym
-import numpy as np
 
 ### FrozenLake用のenviromentを作る
 env = gym.make('FrozenLake-v0')
 
 
-n_epi = 100
+n_epi = 10
 n_step = 200
 
 for epi in range(n_epi):
@@ -18,7 +16,7 @@ for epi in range(n_epi):
     while True: # 週状態までやる場合
         ### 毎回状態を表示する
         env.render()
-        print('ob = {}'.format(ob))
+        #print('ob = {}'.format(ob))
 
         ### 行動決定：ランダム
         action = env.action_space.sample()

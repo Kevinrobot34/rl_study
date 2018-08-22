@@ -1,13 +1,11 @@
-import math
 import gym
-import numpy as np
 
 ### CartPole用のenviromentを作る
 env = gym.make('CartPole-v0')
 #env = gym.make('CartPole-v1') # max_step_num的なものが異なる．
 #env._max_episode_steps = 10000 # 最大試行回数の変更
 
-n_epi = 1000
+n_epi = 10
 
 for epi in range(n_epi):
     ### init
