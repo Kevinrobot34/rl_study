@@ -14,6 +14,7 @@ open AI gymのCartpoleで強化学習してみた．
 
 #### やったこと
 * Random (cp_random.py)
+* 状態行動価値関数Qの線形関数近似
 
 
 #### 実行の仕方

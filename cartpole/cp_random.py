@@ -7,7 +7,6 @@ env = gym.make('CartPole-v0')
 
 ### seedの設定
 env.seed(0) # envのseed
-np.random.seed(1) # numpyのseed
 
 
 n_epi = 10
