@@ -14,6 +14,13 @@ cartpoleフォルダのREADMEとcartpoleをランダムに動かすプログラ�
   * open AI gymのgithub
   * wikiも併せて読むと分かりやすい
 
+### 使い方
+適宜cloneしてください．2048用envは他の人のコードをsubmoduleとして追加しているので注意．
+```
+$ git clone --recursive https://github.com/Kevinrobot34/rl_study.git
+```
+などと実行してもらえればOK!
+(`--recursive`でsubmoduleまで引っ張ってこれる．)
 
 ### 基本構造
 ```python
