@@ -90,6 +90,7 @@ env.close()
         )
         ```
     などと`max_episode_steps`が決められている．
+    step数の上限で打ち切るのは`Timelimit`というラッパーによって実現されている(詳細は https://github.com/openai/gym/tree/master/gym/wrappers)．
     強制的にこの制限を変更するには
     ```Python
     env._max_episode_steps = 10000 # 最大試行回数の変更

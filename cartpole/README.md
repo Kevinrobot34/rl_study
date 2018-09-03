@@ -12,7 +12,7 @@ open AI gymのCartpoleで強化学習してみた．
   * state(observation), action, rewardなどについて細かく書いてある．
 
 
-#### 設定
+### 設定
 `env.step()`で返される変数ob, reward, actionについて
 * ob
     * [cart_pos, cart_v, pole_angle, pole_v]
@@ -25,14 +25,14 @@ open AI gymのCartpoleで強化学習してみた．
         * ('CartPole-v0'のデフォルト設定では)ステップ数が200を超えた時
 
 
-#### やったこと
+### やったこと
 * Random (`cp_random.py`)
 * Q-Learning
     * 離散化してテーブルを作る (`cp_ql.py`)
     * 線形関数近似 (`cp_lfa.py`)
 
 
-#### 実行の仕方
+### 実行の仕方
 ```
 $ python cp_random.py
 ```
